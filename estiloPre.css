@@ -1,0 +1,329 @@
+header{
+    display: flex;
+    height: 70px;
+    width: 2000px;
+    background-color: #6285F9;
+    justify-content: space-between;
+    margin: -10px;
+    margin-left: 
+    
+}
+
+.redes{
+    display: flex;
+}
+.sociales{
+    display: inline-flex;
+    position: absolute;
+    left: 1490px;
+    margin: 8px;
+    
+    
+    
+}
+.titulo{
+    font-family: Script MT;
+    
+    background-color: azure;
+    border-radius: 30px;
+    width: 240px;
+    border: 3px solid black;
+    font-size: 35px;
+    padding-left: 25px;
+    padding-right: -25px;
+    margin: 10px;
+    font-style: italic;
+    margin-left: 150px;
+        
+}
+
+.sociales li{
+    display: inline-block;
+}
+.sociales a{
+    padding: 8px;
+}
+body{
+    background-color: #DBE8F5;
+    
+
+}
+.subtitulo{
+    margin-top: 70px;
+    margin-bottom: 1px;
+    margin-left: 150px;
+    
+    font-size: 70px;
+    font-family:Script MT;
+}
+.nombre{
+    margin-top: -10px;
+    margin-bottom: 1px;
+    margin-left: 150px;
+    font-size: 25px;
+    font-family: Roboto;
+}
+
+
+.imagen-derecha{
+    width: 1100px;
+    height: 550px;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: 100px;;
+    margin-top: 50px; 
+    display: block;
+    box-shadow: -8px 8px 15px white;
+    
+}
+.multimedia{
+    justify-content: space-between;
+    display: flex;
+}
+
+.cuadro{
+    width: 600px;
+    height: 5px;
+    background-color: #6285F9;
+    margin-left: 150px;
+    margin-top: -10px; 
+    border: 1px solid black;
+}
+
+.video-youtube{
+    margin-left: 150px;
+    background: #6285F9;
+    padding-left: 10px;
+    padding-top: 10px;
+     width: 870px;
+    height: 530px;
+    border: 3px solid black;
+}
+.botones{
+    display: flex;
+    
+    
+    
+}
+.boton a{
+   color: white;
+    background-color: #6285F9;
+    color: white;
+    font-size: 40px;
+    font-family:Adobe Naskh;
+    border: 3px solid black;
+    width: 250px;
+    height: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    margin-right: 50px;
+    margin-left: 110px;
+    margin-top: px;
+    text-decoration: none;
+    
+}
+.boton a:hover{
+    color: #8FC7FF;
+}
+.boton2 a{
+    
+    color: white;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    font-family:Adobe Naskh;
+    border: 3px solid black;
+    width: 250px;
+    height: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    
+    
+}
+.boton2 a:hover{
+    color: #8FC7FF;
+}
+.imagen-derecha{
+    width: 750px;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid black;
+    margin-left: 150px;
+    margin-top: 1px;
+     
+}
+
+.tabla{
+    
+    display: inline-block;
+    font-family: Adobe Hebrew;
+    font-size: 20px;
+    
+    color: white;
+    margin-top: 120px;
+    margin-right: 150px;
+    
+   
+}
+.tabla li{
+    margin-bottom: 35px;
+    margin-left: 30px;
+    border: 3px solid black;
+}
+.punto1 {
+    width: 200px;
+    height: auto;
+    list-style-image: url(Imagenes/tienda-online.png);
+   background-color: #8FC7FF;
+    border-radius: 10px;
+    
+}
+.punto2{
+    list-style-image: url(Imagenes/altavoz-de-audio.png);
+    background-color: #8FC7FF;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.punto3{
+    list-style-image: url(Imagenes/book.png);
+    background-color: #8FC7FF;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.recu1{
+    list-style-image: url(Imagenes/pc.png);
+    background-color: #8FC7FF;
+    width: 410px;
+    border-radius: 10px;
+    
+}
+.recu2{
+    list-style-image: url(Imagenes/adobe-photoshop.png);
+    background-color: #8FC7FF;  
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.recu3{
+    
+    background-color: #8FC7FF;  
+    width: 500px;
+    border-radius: 10px;
+    
+}
+.recu4{
+    list-style-image: url(Imagenes/descargar.png);
+    background-color: #8FC7FF;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.recu5{
+    list-style-image: url(Imagenes/autodesk-maya.png);
+    background-color: #8FC7FF;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.recu6{
+    list-style-image: url(Imagenes/pen-tablet.png);
+    background-color: #8FC7FF;
+    width: 500px;
+    border-radius: 20px;
+    
+}
+
+.textos{
+   justify-content: space-between;
+    display: flex;
+    margin-top: 100px;
+}
+.parrafospresentacion{
+    justify-content: space-between;
+    display: flex;
+}
+.Parrafo1Zbrush{
+    font-family: Roboto;
+    font-size: 20px;
+    width: 600px;
+    height: 350px;
+    background-color: #6285F9;
+    color: white;
+    border-radius: 30px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 180px;
+     box-shadow: -8px 9px 15px black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-overflow: clip;
+}
+
+.parrafofundamentos{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.listaFundamentos{
+     padding-left: 60px;
+    padding-right: 60px;
+}
+.listaFundamentos1{
+    padding-bottom: 20px;
+}
+.parrafoMaya1{
+    
+    font-family: Roboto;
+    font-size: 20px;
+    width: 550px;
+    height: 350px;
+    background-color: #6285F9;
+    color: white;
+    border-radius: 30px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 150px;
+     box-shadow: -8px 9px 15px black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-overflow: clip;
+}
+.ParrafoFundamentosMaya{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.final{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 100px;
+}
+
+.boton1 a{
+    margin-left: 90px;
+    color: white;
+    background-color: #6285F9;
+    font-size: 40px;
+    font-family:Monotype Corsiva;
+    border: 3px solid black;
+    width: 250px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    margin-top: px;
+    
+    text-decoration: none;
+}

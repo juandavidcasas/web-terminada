@@ -1,0 +1,303 @@
+header{
+    display: flex;
+    height: 70px;
+    width: 2000px;
+    background-color: #6285F9;
+    justify-content: space-between;
+    margin: -10px;
+    margin-left: 
+    
+}
+
+.redes{
+    display: flex;
+}
+.sociales{
+    display: inline-flex;
+    position: absolute;
+    left: 1490px;
+    margin: 8px;
+    
+    
+    
+}
+.titulo{
+    font-family: Script MT;
+    
+    background-color: azure;
+    border-radius: 30px;
+    width: 240px;
+    border: 3px solid black;
+    font-size: 35px;
+    padding-left: 25px;
+    padding-right: -25px;
+    margin: 10px;
+    font-style: italic;
+    margin-left: 150px;
+        
+}
+
+.sociales li{
+    display: inline-block;
+}
+.sociales a{
+    padding: 8px;
+}
+body{
+    background-color: #DBE8F5;
+    
+
+}
+.subtitulo{
+    margin-top: 70px;
+    margin-bottom: 1px;
+    margin-left: 150px;
+    
+    font-size: 70px;
+    font-family:Script MT;
+}
+.nombre{
+    margin-top: -10px;
+    margin-bottom: 1px;
+    margin-left: 150px;
+    font-size: 25px;
+    font-family: Roboto;
+}
+
+.imagen-derecha{
+    width: 1100px;
+    height: 550px;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: 100px;;
+    margin-top: 50px; 
+    display: block;
+    box-shadow: -8px 8px 15px white;
+    
+}
+.multimedia{
+    justify-content: space-between;
+    display: flex;
+}
+
+.cuadro{
+    width: 600px;
+    height: 5px;
+    background-color: #6285F9;
+    margin-left: 150px;
+    margin-top: -10px; 
+    border: 1px solid black;
+}
+.botones{
+    display: flex;
+    
+    
+    
+}
+.boton a{
+   color: white;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    font-family:Adobe Naskh;
+    border: 3px solid black;
+    width: 250px;
+    height: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    margin-right: 50px;
+    margin-left: 110px;
+    margin-top: px;
+    text-decoration: none;
+    
+}
+.boton a:hover{
+    color: #8FC7FF;
+}
+.boton2 a{
+    
+    color: white;
+    background-color: #6285F9;
+    color: white;
+    font-size: 40px;
+    font-family:Adobe Naskh;
+    border: 3px solid black;
+    width: 250px;
+    height: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    
+    
+}
+.boton2 a:hover{
+    color: #8FC7FF;
+}
+.parrafo1{
+    font-family: Roboto;
+    font-size: 30px;
+    width: 550px;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 6px;
+     box-shadow: -8px 9px 15px black;
+     
+}
+.boton3 a{
+    display:flex;
+    color: white;
+    background-color: #3081D2;
+    color: white;
+    font-size: 40px;
+    font-family:Monotype Corsiva;
+    border: 3px solid black;
+    width: 250px;
+    height: 55px;
+    padding-left: 30px;
+    padding-right: 3px;
+    border-radius: 30px;
+    position: relative;
+    top: 120px;
+    margin-left: 1550px;
+  
+   
+}
+.tabla{
+    
+    display: inline-block;
+    font-family: Adobe Hebrew;
+    font-size: 25px;
+    
+    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-right: 200px;
+    
+   
+}
+.tabla li{
+    
+    padding-bottom:30px; 
+}
+.punto1 {
+    list-style-image: url(Imagenes/tienda-online.png);
+    
+}
+.punto2{
+    list-style-image: url(Imagenes/altavoz-de-audio.png);
+}
+.punto3{
+    list-style-image: url(Imagenes/book.png);
+}
+    
+.nav{
+    width: 700px;
+    margin-top: -100px;
+}
+.nav__link{
+    color: #303440;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.nav__link--inside{
+    border-radius: 6px;
+    padding-left: 20px;
+}
+
+.nav__link--inside:hover{
+    background: #6285F9;
+}
+.list{
+    width: 100%;
+    height: vh;
+    display: flex;
+    background: white;
+    font-family:Adobe Naskh;
+    font-size: 25px;
+    flex-direction: column;
+    border: 3px solid black;
+    margin-left: 190px;
+    border-radius: 30px;
+    padding: 20px 0px 20px 30px;
+    margin-top: 100px;
+    
+  
+}
+.list__item{
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    list-style: none;
+    
+}
+
+.list__item--click{
+    cursor: pointer;
+}
+
+.list__button{
+    display: flex;
+    align-items: ;
+    grid-gap: 1em;
+    width: 70%;
+    
+    margin: 0 auto;
+    
+}
+
+.arrow .list__arrow{
+    transform: rotate(90deg);
+}
+.list__arrow{
+    margin-left: 20px;
+    transition: transform .3s;
+}
+
+.list__show{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid #3081D2;
+    list-style: none;
+    overflow: hidden;
+    transition: height .3s;
+    height: 0;
+    
+}
+.Modulo{
+    font-family:Adobe Naskh;
+    font-size: 40px;
+    list-style: none;
+    color: #6285F9;
+    margin-top: 10px
+}
+.final{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 100px;
+}
+
+.boton1 a{
+    margin-left: 90px;
+    color: white;
+    background-color: #6285F9;
+    font-size: 40px;
+    font-family:Monotype Corsiva;
+    border: 3px solid black;
+    width: 250px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    margin-top: px;
+    
+    text-decoration: none;
+}

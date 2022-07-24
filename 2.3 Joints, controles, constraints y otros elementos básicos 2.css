@@ -1,0 +1,136 @@
+header{
+    display: flex;
+    height: 70px;
+    width: 2000px;
+    background-color: #6285F9;
+    justify-content: space-between;
+    margin: -10px;
+    margin-left: 
+    
+}
+
+.redes{
+    display: flex;
+}
+.sociales{
+    display: inline-flex;
+    position: absolute;
+    left: 1490px;
+    margin: 8px;
+    
+    
+    
+}
+.titulo{
+    font-family: Script MT;
+    
+    background-color: azure;
+    border-radius: 30px;
+    width: 240px;
+    border: 3px solid black;
+    font-size: 35px;
+    padding-left: 25px;
+    padding-right: -25px;
+    margin: 10px;
+    font-style: italic;
+    margin-left: 150px;
+        
+}
+
+.sociales li{
+    display: inline-block;
+}
+.sociales a{
+    padding: 8px;
+}
+body{
+    background-color: #E6F3FF;
+    
+
+}
+
+
+
+
+.nombre{
+    
+    margin-top: 50px;
+   
+    
+    margin-left: 150px;
+}
+.cuadro{
+    width: 800px;
+    height: 5px;
+    background-color: #6285F9;
+    margin-left: 150px;
+    margin-top: -10px; 
+    border: 1px solid black;
+}
+.multimedia{
+    margin-top: 80px;
+}
+.subtitulo{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    
+    font-size: 50px;
+    font-family:Roboto;
+}
+.nombre{
+    margin-top: -10px;
+    margin-bottom: 1px;
+    margin-left: 110px;
+    font-size: 25px;
+    font-family: Roboto;
+}
+.Texto{
+    margin-left: 110px;
+    background-color: #8FC7FF;
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:Roboto;
+    border: 3px solid black;
+    padding: 5px;
+}
+.video-youtube{
+    margin-top: 60px;
+    margin-left: 380px;
+    background: #6285F9;
+    padding-left: 10px;
+    padding-top: 10px;
+     width: 1070px;
+    height: 630px;
+    border: 3px solid black;
+}
+.final{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 90px;
+}
+
+.boton1 {
+     border: 3px solid black;
+    width: 50px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 150px;
+    background-color: #6285F9;
+}
+.boton2 {
+    border: 3px solid black;
+    width: 50px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 150px;
+    background-color: #6285F9;
+}
